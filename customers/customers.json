@@ -1,0 +1,28 @@
+[
+    {
+      "name": "John Doe",
+      "age": 30,
+      "address": "123 Main St, Springfield, IL"
+    },
+    {
+      "name": "Jane Smith",
+      "age": 25,
+      "address": "456 Oak Ave, Chicago, IL"
+    },
+    {
+      "name": "Alice Johnson",
+      "age": 35,
+      "address": "789 Pine Rd, Bloomington, IL"
+    },
+    {
+      "name": "Bob Williams",
+      "age": 40,
+      "address": "101 Maple Dr, Naperville, IL"
+    },
+    {
+      "name": "Charlie Brown",
+      "age": 28,
+      "address": "202 Birch Blvd, Peoria, IL"
+    }
+  ]
+  
