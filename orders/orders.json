@@ -1,0 +1,29 @@
+{
+    "order": {
+      "customerID": "6737132c9348f919ad0bf795",
+      "bookID": "5f8c4f5b2f1c2b2b3c6f2d1d",
+      "initialDate": "2024-11-15T00:00:00Z",
+      "deliveryDate": "2024-11-20T00:00:00Z"
+    },
+    "books": [
+      {
+        "title": "1984",
+        "author": "George Orwell",
+        "numberPages": 328,
+        "publisher": "Secker & Warburg"
+      },
+      {
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "numberPages": 281,
+        "publisher": "J.B. Lippincott & Co."
+      },
+      {
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "numberPages": 218,
+        "publisher": "Charles Scribner's Sons"
+      }
+    ]
+  }
+  

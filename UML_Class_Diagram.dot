@@ -1,0 +1,44 @@
+digraph UML_Class_Diagram {
+    rankdir=TB
+    node [shape=record, fontname=Helvetica, fontsize=10]
+
+    Utilisateur [label="{Utilisateur|
+- id : Integer\l
+- nom : String\l
+- adresseLivraison : String [1..*]\l
+- email : String\l
+|
++ seConnecter() : void\l
++ consulterInformations() : void\l
+}"];
+
+    Commande [label="{Commande|
+- id : Integer\l
+- dateCommande : Date\l
+- /montantTotal : Double\l
+|
++ calculerMontant() : Double\l
+}"];
+
+    Article [label="{Article|
+- id : Integer\l
+- nom : String\l
+- prixUnitaire : Double\l
+- quantite : Integer [1..*]\l
+|
++ verifierDisponibilite() : Boolean\l
+}"];
+
+    Panier [label="{Panier|
+- id : Integer\l
+- dateCreation : Date\l
+|
++ ajouterArticle(Article, quantite : Integer) : void\l
++ supprimerArticle(Article) : void\l
+}"];
+
+    Utilisateur -> Commande;
+    Commande -> Article;
+    Utilisateur -> Panier;
+    Panier -> Article;
+}
